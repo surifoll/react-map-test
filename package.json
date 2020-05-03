@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Screen Show maps on full Screen. There is a button Find me on the map. When I click on it, it finds my location and shows me a mark on google maps. You have to show location details in the Card on my location mark",
   "scripts": {
-    "starddt": "run-p start:dev start:api",
-    "start": "react-scripts start",
-    "start:dev": "webpack-dev-server --config webpack.config.dev.js --port 3003",
-    "prestart:api": "node tools/createMockDb.js",
-    "start:api": "node tools/apiServer.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js --port 3003",
     "test": "jest --watchAll"
   },
   "dependencies": {
