@@ -29,9 +29,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       "process.env.API_URL": JSON.stringify("http://localhost:3009"),
-      "process.env.GOOGLE_MAP_API_KEY": JSON.stringify(
-        myEnv.parsed.GOOGLE_MAP_API_KEY
-      ),
+      "process.env.GOOGLE_MAP_API_KEY": JSON.stringify(""),
     }),
     new HtmlWebpackPlugin({
       template: "src/index.html",

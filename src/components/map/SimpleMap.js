@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import GoogleMapReact from "google-map-react";
-import MarkerComponent from "./MarkerComponent";
-import FancyButton from "./FancyButton";
+import MarkerComponent from "../common/MarkerComponent";
+import FancyButton from "../common/FancyButton";
 import { toast } from "react-toastify";
 
 const defaultState = {
