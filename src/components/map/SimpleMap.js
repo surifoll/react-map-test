@@ -66,7 +66,7 @@ const SimpleMap = () => {
         defaultZoom={localState.zoom}
         onClick={onMapClickHandler}
       >
-        <FancyButton text="I'm here" ClickHandler={ClickHandler}></FancyButton>
+        <FancyButton text="Find me" ClickHandler={ClickHandler}></FancyButton>
         <MarkerComponent
           lat={localState.center.lat}
           lng={localState.center.lng}
